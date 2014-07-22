@@ -1,0 +1,25 @@
+development:
+    adapter: mysql2
+    encoding: utf8
+    database: voter
+    username: root
+    #password: cerith
+    host: localhost
+ 
+test:
+    adapter: mysql2
+    encoding: utf8
+    database: voter
+    username: root
+    #password: cerith
+    host: localhost
+    port: 3307
+
+production:
+    adapter: mysql2
+    encoding: utf8
+    database: voter
+    port: 3307
+    #username: root
+    password: cerith
+    host: localhost
